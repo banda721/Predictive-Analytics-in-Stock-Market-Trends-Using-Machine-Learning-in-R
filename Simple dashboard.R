@@ -12,12 +12,10 @@ ui = fluidPage(
   navbarPage(title = "Stock Prediction Dashboard",
              tabPanel("About",#About Page
                       h1("About Stock Prediction Dashboard"),
-                      p("Welcome to the BGSU Stock Prediction Dashboard. This interactive tool provides stock analysis and prediction capabilities, enabling users to input stock ticker symbols and receive detailed forecasts and trend analyses."),
+                      p("Welcome to the Stock Prediction Dashboard. This interactive tool provides stock analysis and prediction capabilities, enabling users to input stock ticker symbols and receive detailed forecasts and trend analyses."),
                       p("Utilize ARIMA-based forecasting models to predict future stock prices both with and without seasonal adjustments. The dashboard also offers visualizations like line charts and candlestick charts to illustrate stock movements, enhancing your financial decision-making process."),
                       p("Explore the 'Dashboard' tab to enter stock codes, generate forecasts, and download predictive data in CSV format. The 'Charts' tab provides dynamic charting capabilities to visualize historical price data with some technical indicators."),
-                      p("***This Is Not Financial Advice. Do Your Own Research Before Making Any Trade Decision.***"),
-                      
-                      p("A monkey could do a regression - Dr. Walt Ryley")
+                      p("***This Is Not Financial Advice. Do Your Own Research Before Making Any Trade Decision.***")
              ),
              tabPanel("Dashboard",#Dashboard Page
                       sidebarPanel(
